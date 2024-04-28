@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+}
+.container{
+  
+
+}
+.header{
+    border:3px solid red;
+    height: 60px;
+    
+}
+.child1{
+    border:3px solid green;
+    float:left;
+    height:60px;
+    
+}
+
+.child2{
+    border:3px solid blue;
+    float:right;
+    height:60px;
+    width:600px;
+    border-radius: 100px;
+}
+a{
+    text-decoration: none;
+   display: inline-block;
+    padding:15px;
+    margin-right: 5px;
+   
+}
+.image{ 
+   border:2px solid red;
+   height:600px;
+   position: relative;
+}
+img{
+    width: 100%;
+            height: 100%;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 200px;
+    right:1100px;
+    
+  }
+  .bottom-left pre{
+    color:white;
+    font-size:40px;
+  }
+  .content{
+    border:2px solid red;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    
+  }
+.content-imag{
+    border:2px solid blue;
+    height: 350px;
+    width: 300px;
+    float:left
+}
+.content-link{
+    border:2px solid yellow;
+    height: 400px;
+    width: 600px;
+    float:left;
+}
+.content-text{
+    border:2px solid green;
+    height: 350px;
+    width: 299px;
+    float:left;
+}
+
+
+.second-image{
+    border:2px solid red;
+    height:500px;
+    position: relative;
+}
+.video{
+    text-align: center;
+    position: absolute;
+    margin-top:-200px;
+    margin-left:300px;
+    border:2px solid green;
+}
+#video{
+     width:900px;
+     height: 350px;
+    
+}
+.provide{
+    border:2px solid yellow;
+    height:600px;
+    margin-top:150px;
+}
+.provide1{
+    border:2px solid green;
+    width:300px;
+    height:300px;
+     float:left;
+    margin-left:200px;
+    margin-top:50px;
+    
+}
+.provide pre{
+    text-align: center;
+}
+.provide2{
+    border:2px solid green;
+    width:300px;
+    height:200px;
+    float:left;
+    margin-top:50px;
+    margin-left:100px;
+}
+.provide3{
+    border:2px solid green;
+    width:300px;
+    height:200px;
+   float:right;
+   margin-right:200px;
+   margin-top:50px;
+
+}
+.image-button2{
+    width:100px;
+    height: 30px;
+}
+.provide1 img{
+    width:300px;
+    height:200px;
+}
+
+  
+
+
