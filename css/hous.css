@@ -2,28 +2,34 @@
     box-sizing: border-box;
     padding: 0px;
 }
+body{
+    background-color: white;
+ 
+}
 .container{
   
 
 }
 .header{
-    border:3px solid red;
+   
     height: 60px;
     
 }
 .child1{
-    border:3px solid green;
+   
     float:left;
     height:60px;
+    color:#125357;
     
 }
 
 .child2{
-    border:3px solid blue;
+    
     float:right;
     height:60px;
     width:600px;
     border-radius: 100px;
+    background-color: #FAF9F6;
 }
 a{
     text-decoration: none;
@@ -33,7 +39,7 @@ a{
    
 }
 .image{ 
-   border:2px solid red;
+   
    height:600px;
    position: relative;
 }
@@ -52,34 +58,40 @@ img{
     font-size:40px;
   }
   .content{
-    border:2px solid red;
+   
     height: 400px;
     width: 80%;
     margin: auto;
     
   }
 .content-imag{
-    border:2px solid blue;
+    margin-top:10px;
     height: 350px;
     width: 300px;
     float:left
+   
 }
 .content-link{
-    border:2px solid yellow;
     height: 400px;
     width: 600px;
     float:left;
 }
 .content-text{
-    border:2px solid green;
     height: 350px;
     width: 299px;
     float:left;
 }
+ul{
+    margin-left:50px;
+    padding:20px;
+}
+ul li{
+    padding:5px;
+}
 
 
 .second-image{
-    border:2px solid red;
+   
     height:500px;
     position: relative;
 }
@@ -88,7 +100,7 @@ img{
     position: absolute;
     margin-top:-200px;
     margin-left:300px;
-    border:2px solid green;
+  
 }
 #video{
      width:900px;
@@ -96,37 +108,22 @@ img{
     
 }
 .provide{
-    border:2px solid yellow;
+  
     height:600px;
-    margin-top:150px;
+    margin-top:200px;
 }
 .provide1{
-    border:2px solid green;
-    width:300px;
-    height:300px;
-     float:left;
-    margin-left:200px;
-    margin-top:50px;
+  
     
 }
 .provide pre{
     text-align: center;
 }
 .provide2{
-    border:2px solid green;
-    width:300px;
-    height:200px;
-    float:left;
-    margin-top:50px;
-    margin-left:100px;
+   
 }
 .provide3{
-    border:2px solid green;
-    width:300px;
-    height:200px;
-   float:right;
-   margin-right:200px;
-   margin-top:50px;
+   
 
 }
 .image-button2{
@@ -138,6 +135,59 @@ img{
     height:200px;
 }
 
-  
+.child{
+    width:300px;
+    height: 200px;
+     margin-right:200px;
+    margin:20px auto;
+}
+.parent1{
+    width:350px;
+    height:400px;
+     float:left;
+    margin-left:150px;
+    margin-top:50px;
 
+}
+.parent2{
 
+    width:350px;
+    height:400px;
+    float:left;
+    margin-top:50px;
+    margin-left:50px;
+
+}  
+.parent3{
+
+    width:350px;
+    height:400px;
+   float:right;
+   margin-right:200px;
+   margin-top:50px;
+}
+.image-button2{
+    margin-top:5px;
+    background-color: #125357 ;
+    color:white;
+
+}
+.image-button1{
+    margin-top:5px;
+    padding:2px;
+    background-color:#125357 ;
+    color:white;
+}
+.content-link-text{
+    margin-left:30px;
+}
+.content-link-text a{
+     color:red;
+}
+.footer{
+    background-color: #0d7377;
+    color:black;
+    height: 80px; 
+    text-align: center;
+    padding:5px;
+}
